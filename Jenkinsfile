@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        pwsh coucou.ps1
+        pwsh "coucou.ps1"
       }
     }
 
